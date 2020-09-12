@@ -25,6 +25,7 @@ section {
   }
 
   &:first-of-type {
+    height: 100vh;
     background-image: url("https://picsum.photos/800/600?random=1");
   }
 
@@ -38,4 +39,9 @@ section {
   &:nth-of-type(7) {
     background-image: url("https://picsum.photos/800/600?random=4");
   }
+}
+
+.section-dark {
+  background-color: $secondaryColor !important;
+  color: $primaryColor !important;
 }
